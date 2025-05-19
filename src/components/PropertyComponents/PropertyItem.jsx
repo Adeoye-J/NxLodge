@@ -1,9 +1,6 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 
 const PropertyItem = ({image, category, description, location, amenities, lodgeName, costPerAnnum}) => {
-
-
 
     return (
         <div className=''>
