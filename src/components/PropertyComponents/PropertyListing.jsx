@@ -3,20 +3,22 @@ import { motion } from 'framer-motion'
 import PropertyItem from './PropertyItem'
 
 const PropertyListing = ({data}) => {
+
     return (
-        <motion.div
-            initial={{rotate: "0deg"}}
-            animate={{rotate: "180deg"}}
-            // transition={{duration: 5, ease: 1}}
-        >
-            <div className="">
-                {
-                    data.map((item) => (
-                        <PropertyItem image={item.image} location={item.location} title={item.lodgeName} amenities={item.amenities} />
-                    ))
-                }
-            </div>
-        </motion.div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            {data.map((property, index) => (
+                <PropertyItem 
+                    key={index} 
+                    amenities={property.amenities} 
+                    category={property.category} 
+                    costPerAnnum={property.costPerAnnum}
+                    description={property.description}
+                    image={property.image}
+                    location={property.location}
+                    lodgeName={property.lodgeName}
+                />
+            ))}
+        </div>
     )
 }
 

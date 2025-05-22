@@ -1,23 +1,21 @@
-import React from 'react'
-import "./App.css"
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Properties from './pages/Properties'
-import NavBar from './components/HomeComponents/NavBar'
-import Footer from './components/GeneralComponents/Footer'
+import { Routes, Route } from 'react-router-dom';
+import PublicRoutes from './routes/PublicRoutes';
+import PrivateRoutes from './routes/PrivateRoutes';
+import { useAuth } from './hooks/useAuth'; // custom hook for auth
 
-const App = () => {
+function App() {
+  const { isLoggedIn } = useAuth();
+
   return (
-    <div className='max-w-[1440px] m-auto'>
-        <NavBar />
-        <Routes>
-            <Route index element={<Home />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/properties' element={<Properties />} />
-        </Routes>
-        <Footer />
-    </div>
-  )
-}
+      <Routes>
+        {/* Public routes only for not logged-in users */}
+        {!isLoggedIn && <Route path="/*" element={<PublicRoutes />} />}
 
-export default App
+        {/* Private routes for logged-in users */}
+        {isLoggedIn && <Route path="/dashboard/*" element={<PrivateRoutes />} />}
+        
+        {/* Redirect logged-in users from public routes to dashboard */}
+        {isLoggedIn && <Route path="*" element={<Navigate to="/dashboard/home" />} />}
+      </Routes>
+  );
+}

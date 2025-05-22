@@ -11,7 +11,8 @@
         "availability": true,
         "availableUnits": 3,
         "agentName": "John Doe",
-        "agentImage": "/images/agents/agent1.jpg"
+        "agentImage": "/images/agents/agent1.jpg",
+        "featured": true
     },
     {
         "id": 2,
@@ -25,7 +26,8 @@
         "availability": true,
         "availableUnits": 5,
         "agentName": "Jane Smith",
-        "agentImage": "/images/agents/agent2.jpg"
+        "agentImage": "/images/agents/agent2.jpg",
+        "featured": true
     },
     {
         "id": 3,
@@ -39,7 +41,8 @@
         "availability": false,
         "availableUnits": 0,
         "agentName": "Emeka Johnson",
-        "agentImage": "/images/agents/agent3.jpg"
+        "agentImage": "/images/agents/agent3.jpg",
+        "featured": true
     },
     {
         "id": 4,
@@ -53,7 +56,8 @@
         "availability": true,
         "availableUnits": 2,
         "agentName": "Aisha Bello",
-        "agentImage": "/images/agents/agent4.jpg"
+        "agentImage": "/images/agents/agent4.jpg",
+        "featured": true
     },
     {
         "id": 5,
@@ -67,7 +71,8 @@
         "availability": true,
         "availableUnits": 1,
         "agentName": "Samuel Akpan",
-        "agentImage": "/images/agents/agent5.jpg"
+        "agentImage": "/images/agents/agent5.jpg",
+        "featured": true
     },
     {
         "id": 6,
@@ -81,7 +86,8 @@
         "availability": true,
         "availableUnits": 2,
         "agentName": "Ngozi Chukwu",
-        "agentImage": "/images/agents/agent6.jpg"
+        "agentImage": "/images/agents/agent6.jpg",
+        "featured": true
     },
     {
         "id": 7,
@@ -95,7 +101,8 @@
         "availability": true,
         "availableUnits": 4,
         "agentName": "Chika Eze",
-        "agentImage": "/images/agents/agent7.jpg"
+        "agentImage": "/images/agents/agent7.jpg",
+        "featured": true
     },
     {
         "id": 8,
@@ -109,7 +116,8 @@
         "availability": false,
         "availableUnits": 0,
         "agentName": "Peter Okafor",
-        "agentImage": "/images/agents/agent8.jpg"
+        "agentImage": "/images/agents/agent8.jpg",
+        "featured": true
     },
     {
         "id": 9,
@@ -123,7 +131,8 @@
         "availability": true,
         "availableUnits": 3,
         "agentName": "Mary Ann",
-        "agentImage": "/images/agents/agent9.jpg"
+        "agentImage": "/images/agents/agent9.jpg",
+        "featured": true
     },
     {
         "id": 10,
@@ -137,7 +146,8 @@
         "availability": true,
         "availableUnits": 1,
         "agentName": "David Uche",
-        "agentImage": "/images/agents/agent10.jpg"
+        "agentImage": "/images/agents/agent10.jpg",
+        "featured": true
     },
     {
         "id": 11,
@@ -151,7 +161,8 @@
         "availability": true,
         "availableUnits": 6,
         "agentName": "Adewale Bakare",
-        "agentImage": "/images/agents/agent11.jpg"
+        "agentImage": "/images/agents/agent11.jpg",
+        "featured": true
     },
     {
         "id": 12,
@@ -165,7 +176,8 @@
         "availability": false,
         "availableUnits": 0,
         "agentName": "Grace Okon",
-        "agentImage": "/images/agents/agent12.jpg"
+        "agentImage": "/images/agents/agent12.jpg",
+        "featured": true
     },
     {
         "id": 13,
@@ -179,7 +191,8 @@
         "availability": true,
         "availableUnits": 2,
         "agentName": "Kelvin Amos",
-        "agentImage": "/images/agents/agent13.jpg"
+        "agentImage": "/images/agents/agent13.jpg",
+        "featured": true
     },
     {
         "id": 14,
@@ -193,7 +206,8 @@
         "availability": true,
         "availableUnits": 8,
         "agentName": "Sandra Paul",
-        "agentImage": "/images/agents/agent14.jpg"
+        "agentImage": "/images/agents/agent14.jpg",
+        "featured": true
     },
     {
         "id": 15,
@@ -207,7 +221,8 @@
         "availability": true,
         "availableUnits": 1,
         "agentName": "Ifeoma Anya",
-        "agentImage": "/images/agents/agent15.jpg"
+        "agentImage": "/images/agents/agent15.jpg",
+        "featured": true
     },
     {
         "id": 16,
@@ -221,7 +236,8 @@
         "availability": true,
         "availableUnits": 3,
         "agentName": "Tunde Akin",
-        "agentImage": "/images/agents/agent16.jpg"
+        "agentImage": "/images/agents/agent16.jpg",
+        "featured": true
     },
     {
         "id": 17,
@@ -235,7 +251,8 @@
         "availability": true,
         "availableUnits": 1,
         "agentName": "Chinedu Obi",
-        "agentImage": "/images/agents/agent17.jpg"
+        "agentImage": "/images/agents/agent17.jpg",
+        "featured": true
     },
     {
         "id": 18,
@@ -249,7 +266,8 @@
         "availability": true,
         "availableUnits": 7,
         "agentName": "Blessing Emmanuel",
-        "agentImage": "/images/agents/agent18.jpg"
+        "agentImage": "/images/agents/agent18.jpg",
+        "featured": true
     },
     {
         "id": 19,
@@ -263,7 +281,8 @@
         "availability": false,
         "availableUnits": 0,
         "agentName": "Kingsley Nwachukwu",
-        "agentImage": "/images/agents/agent19.jpg"
+        "agentImage": "/images/agents/agent19.jpg",
+        "featured": true
     },
     {
         "id": 20,
@@ -277,6 +296,7 @@
         "availability": true,
         "availableUnits": 2,
         "agentName": "Grace Adeyemi",
-        "agentImage": "/images/agents/agent20.jpg"
+        "agentImage": "/images/agents/agent20.jpg",
+        "featured": true
     }
 ]
