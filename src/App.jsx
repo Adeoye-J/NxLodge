@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import PublicRoutes from './routes/PublicRoutes';
-import PrivateRoutes from './routes/PrivateRoutes';
+import PublicRoutes from './routes/PubilcRoutes';
+import PrivateRoutes from "./routes/PrivateRoutes";
 import { useAuth } from './hooks/useAuth'; // custom hook for auth
 
-function App() {
+const App = () => {
   const { isLoggedIn } = useAuth();
 
   return (
@@ -19,3 +19,5 @@ function App() {
       </Routes>
   );
 }
+
+export default App;
