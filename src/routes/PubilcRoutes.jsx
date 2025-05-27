@@ -6,6 +6,7 @@ import Login from '../pages/Login';
 import NavBar from '../components/HomeComponents/NavBar';
 import Footer from '../components/GeneralComponents/Footer';
 import PropertyDetails from '../components/PropertyComponents/PropertyDetails';
+import Contact from '../pages/Contact';
 
 const PublicRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const PublicRoutes = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/contact-us" element={<Contact />} />
             <Route path="/properties" element={<Properties />} />
             <Route path="/properties/:lodgeName" element={<PropertyDetails />} />
             <Route path="/login" element={<Login />} />
